@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column">
+    <img src="agri1.jpg" alt="agriculture" style="width:250%">
+  </div>
+  <div class="column">
+    <img src="agri2.jpg" alt="agriculture" style="width:250%">
+  </div>
+  <div class="column">
+    <img src="agri3.jpg" alt="agriculture" style="width:300%">
+<div class="column">
+<img src="agri4.jpg" alt="agriculture" style="width:250">
+  </div>
+</div>
+
+</body>
+</html>

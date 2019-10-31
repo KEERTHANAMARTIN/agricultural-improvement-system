@@ -1,0 +1,106 @@
+
+<html>
+<head>
+<style>
+body
+{
+  background-image:url("contact.png");
+  background-weight:00;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+.login-box
+{
+  width:320px;
+  height:650px;
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  top:50%;
+  left:50%;
+  position:absolute;
+   transform:translate(-50%,-50%);
+   box-sizing:border-box;
+  padding:70px 30px;
+}
+
+h1{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+font-size:22px;
+}
+.login-box p{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+.login-box input
+{
+ width:100%;
+margin-bottom:20px;
+}
+.login-box input[type="text"], input[type="text"],select,textarea
+{
+width: 50%;
+padding:10px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+background:transparent;
+
+}
+.login-box input[type="submit"]{
+border: none;
+outline:none;
+height:30px;
+background:#0066ff;
+color:#fff;
+font-size:15px;
+}
+
+
+</style>
+<body>
+<div class="login-box">
+    <h1>Contact Us</h1>
+<form>
+<p>First name</p>
+<input type="text" name="First name">
+<p>Last Name</p>
+<input type="text" name="Last Name">
+<p>Country</p>
+   
+ <select id="country" name="country">
+    
+  <option value="india"> india </option>
+     
+ <option value="canada">Canada</option>
+    
+  <option value="usa">USA</option>
+     
+ <option value="australia">australia</option>
+  
+    <option value="japan">japan</option>
+  
+    <option value="china">china</option>
+    
+  <option value="singapore">singapore</option>
+
+      <option value="malaysia">malaysia</option>
+  
+    <option value="europe">europe</option>
+  
+  </select><br>
+
+  
+  <p>Subject:</p><br>
+  
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+<input type="submit" name="submit">
+</div>
+</form>
+</body>
+</html>
